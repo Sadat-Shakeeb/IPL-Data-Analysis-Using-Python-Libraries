@@ -1,7 +1,7 @@
 IPL Data Analysis Project
 Welcome to the IPL Data Analysis Project! This project delves into the depths of the Indian Premier League (IPL) dataset using powerful Python libraries like NumPy and Pandas. We've embarked on a journey from basic to advanced analytical questions to uncover intriguing insights about teams, players, and matches over the years.
 
-![]([https://github.com/Sadat-Shakeeb/Library_Management_System/blob/main/th.jpg?raw=true](https://github.com/Sadat-Shakeeb/IPL-Data-Analysis-Using-Python-Libraries/blob/main/155-1559535_ipl-logo-png-2018.png?raw=true))
+![]([https://github.com/Sadat-Shakeeb/Library_Management_System/blob/main/th.jpg?raw=true](https://github.com/Sadat-Shakeeb/IPL-Data-Analysis-Using-Python-Libraries/blob/main/155-1559535_ipl-logo-png-2018.png?raw=true)
 
 Introduction
 The Indian Premier League has revolutionized the game of cricket, blending sports and entertainment to create a captivating spectacle. This project aims to analyze the IPL's rich dataset to answer compelling questions, providing valuable insights into team dynamics, player performances, and the intricacies of the game.
