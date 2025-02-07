@@ -1,12 +1,12 @@
-IPL Data Analysis Project
+# IPL Data Analysis Project
 Welcome to the IPL Data Analysis Project! This project delves into the depths of the Indian Premier League (IPL) dataset using powerful Python libraries like NumPy and Pandas. We've embarked on a journey from basic to advanced analytical questions to uncover intriguing insights about teams, players, and matches over the years.
 
 ![](https://github.com/Sadat-Shakeeb/IPL-Data-Analysis-Using-Python-Libraries/blob/main/155-1559535_ipl-logo-png-2018.png?raw=true)
 
-Introduction
+# Introduction
 The Indian Premier League has revolutionized the game of cricket, blending sports and entertainment to create a captivating spectacle. This project aims to analyze the IPL's rich dataset to answer compelling questions, providing valuable insights into team dynamics, player performances, and the intricacies of the game.
 
-Dataset
+# Dataset
 We utilized comprehensive IPL datasets that include detailed information on matches, players, teams, and seasons. The data encompasses everything from ball-by-ball actions to overall team statistics.
 
 Matches Dataset: Contains detailed records of each match played.
@@ -15,7 +15,7 @@ Deliveries Dataset (if applicable): Provides ball-by-ball details for granular a
 
 Note: Ensure compliance with data usage policies when handling and sharing the datasets.
 
-Sample Analytical Questions
+# Sample Analytical Questions
 1. Player with Most Appearances in Final Matches
 Identified the player who has featured in the most IPL final matches, highlighting consistent performers who have made significant impacts in crucial games.
 
