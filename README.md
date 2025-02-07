@@ -22,15 +22,15 @@ Identified the player who has featured in the most IPL final matches, highlighti
 2. Team Performance DataFrame
 Created a comprehensive DataFrame for each team, detailing:
 
-Team Name
+   Team Name
 
-Matches Played
+   Matches Played
 
-Win Percentage
+   Win Percentage
 
-Home Win Percentage
+   Home Win Percentage
 
-Away Win Percentage
+   Away Win Percentage
 
 This allows us to compare team performances across different conditions and identify strengths and weaknesses.
 
@@ -49,15 +49,15 @@ Analyzed the dataset to find the most recent match played by Virat Kohli in Delh
 5. IPL Points Table Function
 Implemented the point_table function which generates the points table for any specified season, featuring:
 
-Team Name
+   Team Name
 
-Matches Played
+   Matches Played
 
-Matches Won
+   Matches Won
 
-No Result
+   No Result
 
-Points
+   Points
 
 6. Toss Winner as Match Winner Percentage
 Calculated the percentage of matches where the toss winner also won the match, providing insights into the potential impact of winning the toss.
