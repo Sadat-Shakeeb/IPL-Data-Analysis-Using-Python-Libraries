@@ -13,8 +13,8 @@ Matches Dataset: Contains detailed records of each match played.
 
 Deliveries Dataset : Provides ball-by-ball details for granular analysis.
 
-# Note: Ensure compliance with data usage policies when handling and sharing the datasets.
-# Note: Dataset links is provided in respective .ipynb file accordingly
+Note: Ensure compliance with data usage policies when handling and sharing the datasets.
+Note: Dataset links is provided in respective .ipynb file accordingly
 
 # Sample Analytical Questions On IPL Matches Dataset
 1. Player with Most Appearances in Final Matches
