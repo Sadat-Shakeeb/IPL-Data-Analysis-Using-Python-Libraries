@@ -11,11 +11,12 @@ We utilized comprehensive IPL datasets that include detailed information on matc
 
 Matches Dataset: Contains detailed records of each match played.
 
-Deliveries Dataset (if applicable): Provides ball-by-ball details for granular analysis.
+Deliveries Dataset : Provides ball-by-ball details for granular analysis.
 
-Note: Ensure compliance with data usage policies when handling and sharing the datasets.
+# Note: Ensure compliance with data usage policies when handling and sharing the datasets.
+# Note: Dataset link is provided in respective .ipynb file accordingly
 
-# Sample Analytical Questions
+# Sample Analytical Questions On IPL Matches Dataset
 1. Player with Most Appearances in Final Matches
 Identified the player who has featured in the most IPL final matches, highlighting consistent performers who have made significant impacts in crucial games.
 
@@ -69,3 +70,25 @@ Identified the player with the most "Player of the Match" awards in finals and q
 Determined the number of matches won by Chennai Super Kings (CSK) in Kolkata, offering insights into the team's performance at specific venues.
 
 The table is sorted in non-ascending order of points and ascending order of team names for clarity.
+
+
+# Sample Analysis On Deliveries Dataset
+
+# Analysis and Questions
+The project aims to answer several key questions about IPL performance.  Below are some of the questions explored in the analysis:
+
+# Batsman Performance
+Highest Score While Chasing: Identify the batsman with the highest individual score in a successful chase.
+Best Strike Rate While Chasing: Find the batsman with the best strike rate while chasing, having faced at least 100 balls.
+Batsman Record Season Wise: Create a function that takes a batsman's name as input and returns a DataFrame with their season-wise performance. The DataFrame includes columns like Season, Innings, TotalRuns, Avg, HighestScore, and StrikeRate. The Season column is set as the index. The average is calculated as total_runs / number of times dismissed, and the strike rate as (total_runs / balls faced) * 100. Special attention is given to handling extras like wides and no-balls.
+
+# Bowler Performance
+Most Successful Bowler Against Any Batsman: Determine the bowler-batsman pair with the most dismissals or other relevant metric indicating success.
+Purple Cap Holder Each Season: Identify the Purple Cap holder (most wickets) for each IPL season. In case of a tie in wickets, the bowler with the best economy rate wins the Purple Cap.
+Best Bowler in Death Overs: Find the best bowler in the death overs (16-20). The criteria are most wickets taken, and in case of a tie, the bowler with the lowest economy rate in death overs is preferred.
+
+
+# Partnerships and Match Data
+Most Successful Batting Pair: Identify the batting pair that has scored the most runs together in IPL history.
+Batting Pairs DataFrame: Create a DataFrame listing all batting pairs, along with their combined runs, average, and strike rate. The columns are Batsman1, Batsman2, Runs, Avg, and StrikeRate.
+Match Performance Summary: Create a DataFrame summarizing each match with PlayerOfThematch, BattingFigure, and BowlingFigure. BattingFigure is in the format <runs>/<balls>, and BowlingFigure is in the format <wickets>/<runs-conceded>. If a player didn't bat or bowl, the corresponding figure is NaN.
