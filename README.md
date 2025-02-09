@@ -14,7 +14,7 @@ Matches Dataset: Contains detailed records of each match played.
 Deliveries Dataset : Provides ball-by-ball details for granular analysis.
 
 Note: Ensure compliance with data usage policies when handling and sharing the datasets.
-Note: Dataset links is provided in respective .ipynb file accordingly
+
 
 # Sample Analytical Questions On IPL Matches Dataset
 1. Player with Most Appearances in Final Matches
@@ -92,3 +92,5 @@ Best Bowler in Death Overs: Find the best bowler in the death overs (16-20). The
 Most Successful Batting Pair: Identify the batting pair that has scored the most runs together in IPL history.
 Batting Pairs DataFrame: Create a DataFrame listing all batting pairs, along with their combined runs, average, and strike rate. The columns are Batsman1, Batsman2, Runs, Avg, and StrikeRate.
 Match Performance Summary: Create a DataFrame summarizing each match with PlayerOfThematch, BattingFigure, and BowlingFigure. BattingFigure is in the format <runs>/<balls>, and BowlingFigure is in the format <wickets>/<runs-conceded>. If a player didn't bat or bowl, the corresponding figure is NaN.
+
+Note: Dataset links is provided in respective .ipynb file accordingly
